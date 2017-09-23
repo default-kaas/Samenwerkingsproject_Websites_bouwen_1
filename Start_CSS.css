@@ -58,3 +58,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+body {
+	background-image: url("Image/tank_grass_war_62140_1920x1080.jpg");
+}
