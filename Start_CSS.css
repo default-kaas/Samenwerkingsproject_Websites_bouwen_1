@@ -1,8 +1,8 @@
 Header {
-    width:100%;
-    height: 462px; /* height of the background image? */
+    width: 1614px;
+    height: 462px;
     background:url(Image/Header_image.jpg) repeat-x 0 0;
-    text-align:center;
+    align:middle;
 }
 
 ul{
