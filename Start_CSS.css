@@ -61,4 +61,7 @@ li.dropdown {
 
 body {
 	background-image: url("Image/tank_grass_war_62140_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
