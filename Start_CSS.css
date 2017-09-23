@@ -1,4 +1,11 @@
-ul {
+Header {
+    width:100%;
+    height: 462px; /* height of the background image? */
+    background:url(Image/Header_image.jpg) repeat-x 0 0;
+    text-align:center;
+}
+
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
