@@ -5,32 +5,112 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<header><img src="Image/Header_image.jpg" alt="Head pic" ></header>
-<nav>
-    <ul>
-        <li>
-            <a href="First_page.html">Start</a>
-        </li>
-        <li>
-            <a href="Second_page.html">Second</a>
-        </li>
-        <li>
-            <a href="Third_page.html">Third</a>
-        </li>
-        <li>
-            <a href="Fourth_page.html">Fourth</a>
-        </li>
-        <li>
-            <a href="Fifth_page.html">Fifth</a>
-        </li>
-        <li>
-            <a href="Sixth_page.html">Sixth</a>
-        </li>
-        <li>
-            <a href="Seventh_page.html">Seventh</a>
-        </li>
-    </ul>
-</nav>
-</body>
+    <body>
+    <header><img src="Image/Header_image.jpg" alt="Head pic" ></header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="First_page.html">Start</a>
+                </li>
+                <li>
+                    <a href="Second_page.html">Second</a>
+                </li>
+                <li>
+                    <a href="Third_page.html">Third</a>
+                </li>
+                <li>
+                    <a href="Fourth_page.html">Fourth</a>
+                </li>
+                <li>
+                    <a href="Fifth_page.html">Fifth</a>
+                </li>
+                <li>
+                    <a href="Sixth_page.html">Sixth</a>
+                </li>
+                <li>
+                    <a href="Seventh_page.html">Seventh</a>
+                </li>
+            </ul>
+        </nav>
+
+        <form>
+            <fieldset>
+                <label for="salutation" class="required">Aanhef:</label>
+                <select name="salutation">
+                    <option value="Mevr." <?= $salutation == 'Mevr.' ? "selected" : "";?>>Mevr.</option>
+                    <option value="Dhr." <?= $salutation != 'Mevr.' ? "selected" : "";?>>Dhr.</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="first_name">Voornaam:</label>
+                <input type="text" name="first_name" value="">
+            </fieldset>
+
+            <fieldset>
+                <label for="insertion">Tussenvoegsel:</label>
+                <input type="text" name="insertion" value="">
+            </fieldset>
+
+            <fieldset>
+                <label for="last_name" class="required">Achternaam:</label>
+                <input type="text" name="last_name" value="">
+                <?= $warning['last_name']?>
+            </fieldset>
+
+            <fieldset>
+                <label for="postal_code" class="required">Postcode: </label>
+                <input type="text" name="postal_code" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" value="" placeholder="1234 AB">
+                <?= $warning['postal_code']?>
+            </fieldset>
+
+            <fieldset>
+                <label for="streetnumber" class="required">Huisnummer: </label>
+                <input type="text" name="streetnumber" value="">
+                <?= $warning['streetnumber']?>
+            </fieldset>
+
+            <fieldset>
+                <label for="street">Adres: </label>
+                <input type="text" name="street" value="">
+            </fieldset>
+
+            <fieldset>
+                <label for="city">Woonplaats: </label>
+                <input type="text" name="city" pattern="[a-zA-Z]+" value="">
+            </fieldset>
+
+
+            <fieldset>
+                <label for="birth_date" >Geboortedatum: </label>
+                <input type="text" name="birth_date" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])-([0-9]{4})" value="" placeholder="dd-mm-jjjj">
+                <?= $warning['birth_date']?>
+            </fieldset>
+
+            <fieldset>
+                <label for="email" class="required">E-mailadres: </label>
+                <input type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="" >
+                <?= $warning['email']?>
+            </fieldset>
+
+            <fieldset>
+                <label for="email2" class="required">E-mailadres nogmaals: </label>
+                <input type="text" name="email2" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="" >
+                <?= $warning['email2']?>
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+                <legend>Wilt u de nieuwsbrief ontvangen?</legend>
+            </fieldset>
+
+            <fieldset>
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter" value="ja" checked>
+                    <div class="checkbox"></div>
+                </label>
+                <legend>Ja ik zou graag de nieuwsbrief ontvangen</legend>
+            </fieldset>
+        </form>
+    </body>
 </html>
