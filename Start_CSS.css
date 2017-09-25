@@ -1,8 +1,16 @@
+h1{
+    color : white;
+    font-family: "Arial Black";
+}
+
+P{
+    color : white;
+    font-family: "Arial Black";
+}
+
 Header {
     background-color: #333;
     text-align:center;
-    /* align:middle; */
-
 }
 
 ul{
@@ -10,7 +18,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #222;
 }
 
 li {
@@ -66,7 +74,17 @@ body {
     margin: 0px;
 }
 
-P{
-    cclor : white;
-    font-family: "Arial Black";
+footer{
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    text-align: center;
+    color: white;
+    font-family: "Arial";
+    position: absolute;
+    width: 100%;
+    background: #333;
+}
+
+a{
+    color: white;
 }
