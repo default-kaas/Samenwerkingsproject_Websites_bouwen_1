@@ -19,6 +19,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #222;
+    border-bottom: 3px solid black;
 }
 
 li {
@@ -84,6 +85,7 @@ footer{
     width: 100%;
     background: #333;
     bottom: 0%;
+    border-top: 3px solid black;
 
 }
 
