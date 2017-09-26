@@ -73,6 +73,11 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0px;
+
+    /* Would like to have a better solution */
+    /*
+    display: flex;
+    flex-direction: column; */
 }
 
 footer{
@@ -81,14 +86,38 @@ footer{
     text-align: center;
     color: white;
     font-family: "Arial";
-    position: absolute;
+
     width: 100%;
     background: #333;
-    bottom: 0%;
+
     border-top: 2px solid black;
 
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+html{
+    min-height: 100vh;
 }
 
 a{
     color: white;
 }
+
+/* Would like to have a better solution */
+/*
+html, body{
+    height: 100%;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex-shrink: 0;
+} */
+
