@@ -75,9 +75,8 @@ body {
     margin: 0px;
 
     /* Would like to have a better solution */
-    /*
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
 }
 
 footer{
@@ -86,28 +85,9 @@ footer{
     text-align: center;
     color: white;
     font-family: "Arial";
-
     width: 100%;
     background: #333;
-
     border-top: 2px solid black;
-
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-}
-
-body{
-    min-height: 100vh;
-	position: relative;
-	
-}
-html{
-	margin: 0;
-	padding: 0;
-	min-height: 100%;
 }
 
 a{
@@ -115,7 +95,6 @@ a{
 }
 
 /* Would like to have a better solution */
-/*
 html, body{
     height: 100%;
 }
@@ -126,5 +105,5 @@ html, body{
 
 .footer{
     flex-shrink: 0;
-} */
+}
 
