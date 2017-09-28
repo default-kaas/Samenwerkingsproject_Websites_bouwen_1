@@ -59,7 +59,7 @@ li.dropdown {
     display: block;
 }
 
-.dropdown-content a:hover a:hover {
+.dropdown-content a:hover{
     background-color: red
 }
 
