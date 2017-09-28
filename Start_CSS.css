@@ -1,13 +1,4 @@
-h1{
-    color : white;
-    font-family: "Arial Black";
-}
-
-P{
-    color : white;
-    font-family: "Arial Black";
-}
-
+/*Header*/
 Header {
     background-color: #333;
     text-align:center;
@@ -17,6 +8,7 @@ Header {
     height: 250px;
 }
 
+/*Navigation bar */
 ul{
     list-style-type: none;
     margin: 0;
@@ -75,6 +67,7 @@ li.dropdown {
     display: block;
 }
 
+/*Body */
 body {
 	background-image: url("Image/tank_grass_war_62140_1920x1080.jpg");
     background-repeat: no-repeat;
@@ -88,6 +81,7 @@ body {
     flex-direction: column;
 }
 
+/*Footer */
 footer{
     padding-bottom: 1.5%;
     padding-top: 1.5%;
@@ -97,10 +91,6 @@ footer{
     width: 100%;
     background: #333;
     border-top: 2px solid black;
-}
-
-a{
-    color: white;
 }
 
 /* Would like to have a better solution */
@@ -116,3 +106,18 @@ html, body{
     flex-shrink: 0;
 }
 
+/*Text content*/
+h1{
+    color : white;
+    font-family: "Arial Black";
+}
+
+P{
+    color : white;
+    font-family: "Arial Black";
+}
+
+/*URL links */
+a{
+    color: white;
+}
