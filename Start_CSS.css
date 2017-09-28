@@ -50,21 +50,26 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #222;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: left;
+    border: 2px solid black;
+    border-top: none;
 }
 
 .dropdown-content a {
-    color: Gray;
+    font-family: "Arial Black";
+    text-align: left;
+    color:white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover a:hover {
+    background-color: red
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
