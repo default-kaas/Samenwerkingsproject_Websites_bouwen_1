@@ -22,7 +22,7 @@ li {
     float: left;
 }
 
-li a, .dropbtn {
+li a {
     display: inline-block;
     font-family: "Arial Black";
     color: white;
@@ -31,7 +31,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover {
     background-color: red;
 }
 
