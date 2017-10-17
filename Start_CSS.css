@@ -77,7 +77,7 @@ body {
     background-size: cover;
     margin: 0px;
 
-    /* Would like to have a better solution */
+    /* Idk: Would like to have a better solution */
     display: flex;
     flex-direction: column;
 }
@@ -94,7 +94,7 @@ body {
     width: 100%;
 }
 
-/* Would like to have a better solution */
+/* Footer: Would like to have a better solution */
 html, body{
     height: 100%;
 }
@@ -108,15 +108,50 @@ html, body{
 }
 
 /*Text content*/
-h1{
+.awc {
     color : white;
     font-family: "Arial Black";
     padding-left: 1%;
+    text-align: center;
+    font-size: 40px;
+    color: #ffa500;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
-P{
+.tactics {
     color : white;
     font-family: "Arial Black";
+    padding-left: 1%;
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.dik {
+    color : white;
+    font-family: "Arial Black";
+    margin: 0;
+    text-align: center;
+}
+
+.dun {
+    color : white;
+    font-family: "Arial";
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.atwarpic {
+    text-align: center;
+}
+
+.ul {
+    height: auto;
+    color: #FFFFFF;
 }
 
 /*URL links */
