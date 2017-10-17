@@ -6,29 +6,60 @@
     <title>Title</title>
 </head>
     <body>
-    <header><img class="header" src="Image/Header_image.jpg" alt="Head pic"></header>
-    <nav>
-        <ul>
-            <li>
-                <a href="First_page.html">Start</a>
-            </li>
-            <li>
-                <a href="Second_page.html">Second</a>
-            </li>
-            <li>
-                <a href="Third_page.html">Third</a>
-            </li>
-            <li>
-                <div class="dropdown">
-                    <a href="Fourth_page.html">Fourth</a>
-                    <div class="dropdown-content">
-                        <a href="Fifth_page.html">Fifth</a>
-                        <a href="Sixth_page.html">Sixth</a>
-                        <a href="Seventh_page.html">Seventh</a>
+        <header><img class="header" src="Image/Header_image.jpg" alt="Head pic"></header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="First_page.html">Start</a>
+                </li>
+                <li>
+                    <a href="Second_page.html">Second</a>
+                </li>
+                <li>
+                    <a href="Third_page.html">Third</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="Fourth_page.html">Fourth</a>
+                        <div class="dropdown-content">
+                            <a href="Fifth_page.html">Fifth</a>
+                            <a href="Sixth_page.html">Sixth</a>
+                            <a href="Seventh_page.html">Seventh</a>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </ul>
-    </nav>
+                </li>
+            </ul>
+        </nav>
+
+        <form>
+            <fieldset>
+                <label for="salutation" class="required">Aanhef:</label>
+                <select name="salutation">
+                    <option value="Mevr.">Mevr.</option>
+                    <option value="Dhr.">Dhr.</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="first_name">Voornaam:</label>
+                <input type="text" name="first_name" value="">
+            </fieldset>
+
+            <fieldset>
+                <label for="last_name" class="required">Achternaam:</label>
+                <input type="text" name="last_name" value="">
+            </fieldset>
+
+            <fieldset>
+                <label for="email" class="required">E-mailadres: </label>
+                <input type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="">
+            </fieldset>
+
+            <fieldset>
+
+            </fieldset>
+
+            <input type="submit" name="submitbutton" value="Verzenden">
+        </form>
     </body>
 </html>
