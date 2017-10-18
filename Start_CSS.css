@@ -40,6 +40,9 @@ nav ul li.dropdown {
     display: inline-block;
 }
 
+nav ul .dropdown{
+    border: none;
+}
 /*Dropdown navigation bar */
 .dropdown-content {
     background-color: #222;
@@ -60,8 +63,6 @@ nav ul li.dropdown {
     text-align: left;
     text-decoration: none;
 }
-
-
 
 .dropdown:hover .dropdown-content {
     display: block;
