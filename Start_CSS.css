@@ -2,6 +2,7 @@
 Header {
     background-color: #333;
     text-align:center;
+    height: 350px;
 }
 .header{
     height: 350px;
@@ -84,7 +85,7 @@ body {
 form{
     align-content: center;
     background: gray;
-    border: 5px solid darkgray;
+    border: 5px solid #555;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -103,15 +104,16 @@ form fieldset{
 }
 
 form input {
-    border: 2px solid darkgray;
+    border: 2px solid #555;
+    font-family: "Arial";
 }
 
 form textarea {
     background-color: white;
     box-sizing: border-box;
-    border: 2px solid darkgray;
+    border: 2px solid #555;
     border-radius: 4px;
-    font-size: 16px;
+    font-family: "Arial";
     height: 40%;
     padding: 12px 20px;
     resize: none;
@@ -120,11 +122,10 @@ form textarea {
 
 form button{
     background-color: #222;
-    border: none;
+    border: 2px solid #555;
     color: white;
     display: inline-block;
     font-family: "Arial Black";
-    font-size: 16px;
     margin: 4px 2px;
     padding: 15px 32px;
     text-align: center;
