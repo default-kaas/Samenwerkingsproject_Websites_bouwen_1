@@ -203,6 +203,16 @@ html, body{
     color: #FFFFFF;
 }
 
+.text {
+    font-family: "Arial";
+    color:white;
+    
+}
+
+.ul li {
+    font-family: "Arial";
+}
+
 /*URL links */
 a{
     color: white;
