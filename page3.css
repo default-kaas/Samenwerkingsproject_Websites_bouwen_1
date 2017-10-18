@@ -82,59 +82,6 @@ body {
     flex-direction: column;
 }
 
-/* Form*/
-form{
-    align-content: center;
-    background: gray;
-    border: 5px solid #555;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 30%;
-}
-
-form h1, form p{
-    color: white;
-    font-family: "Arial Black";
-}
-
-form fieldset{
-    algin-content: center;
-    border: none;
-    color: white;
-    font-family: "Arial Black";
-    height: auto;
-}
-
-form input{
-    border: 2px solid #555;
-    font-family: "Arial";
-}
-
-form textarea{
-    background-color: white;
-    box-sizing: border-box;
-    border: 2px solid #555;
-    border-radius: 4px;
-    font-family: "Arial";
-    height: 40%;
-    padding: 12px 20px;
-    resize: none;
-    width: 100%;
-}
-
-form button{
-    background-color: #222;
-    border: 2px solid #555;
-    color: white;
-    display: inline-block;
-    font-family: "Arial Black";
-    margin: 4px 2px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-}
-
 /*Footer */
 footer{
     background: #333;
@@ -158,78 +105,6 @@ html, body{
 
 footer{
     flex-shrink: 0;
-}
-
-/*Text content*/
-.awc {
-    color : white;
-    font-family: "Arial Black";
-    padding-left: 1%;
-    text-align: center;
-    font-size: 40px;
-    color: #ffa500;
-    margin-top: 5px;
-    margin-bottom: -5px;
-}
-
-.tactics {
-    color : white;
-    font-family: "Arial Black";
-    padding-left: 1%;
-    text-align: center;
-    font-size: 40px;
-    color: #FFFFFF;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.bold {
-    color : white;
-    font-family: "Arial Black";
-    margin: 0;
-    text-align: center;
-}
-
-.dun {
-    color : white;
-    font-family: "Arial";
-    margin: 0;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.ul {
-    height: auto;
-    color: #FFFFFF;
-    margin-left: 1%;
-    text-align: center;
-}
-
-.ul li {
-    font-family: "Arial";
-    text-align: center;
-    list-style-position: inside;
-}
-
-.text {
-    font-family: "Arial";
-    color:white;
-    margin-left: 1%;
-    text-align: center;
-}
-
-hr {
-    margin-top: 0;
-}
-
-div img {
-    margin-left: 1%;
-    margin-bottom: 15px;
-}
-
-/*URL links */
-a{
-    color: white;
 }
 
 /*Images */
