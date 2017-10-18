@@ -13,7 +13,6 @@ Header {
 nav ul{
     background-attachment: fixed;
     background-image: url("Image/rb.jpg");
-    background-size: cover;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
