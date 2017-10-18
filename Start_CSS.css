@@ -232,26 +232,31 @@ a{
     color: white;
 }
 
+<<<<<<< HEAD
 /*Images*/
 div img{
+=======
+/*Images */
+.set div img{
+>>>>>>> aefe761a2b8259cd39ff436b6dce26080c3f2891
     margin: 0%;
 }
 
-img.left{
+.set img.left{
     float: left;
     margin-left: 1%;
     max-width: 30%;
     size: auto;
     border: none;
 }
-img.center {
+.set img.center {
     margin-left: 4%;
     margin-right: 4%;
     max-width: 30%;
     size: auto;
     border: none;
 }
-img.right{
+.set img.right{
     float: right;
     margin-right: 1%;
     max-width: 30%;
