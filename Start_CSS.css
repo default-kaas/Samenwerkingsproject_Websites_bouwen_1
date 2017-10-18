@@ -222,14 +222,19 @@ hr {
     margin-top: 0;
 }
 
-div img {
-    margin-left: 1%;
-    margin-bottom: 15px;
-}
+
 
 /*URL links */
 a{
     color: white;
+}
+
+/*Images */
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .set img.left{
@@ -239,7 +244,8 @@ a{
     size: auto;
     border: none;
 }
-.set img.center {
+.set img.center{
+    display: none;
     margin-left: 4%;
     margin-right: 4%;
     max-width: 30%;
