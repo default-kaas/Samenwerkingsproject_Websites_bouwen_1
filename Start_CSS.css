@@ -84,48 +84,55 @@ body {
 form{
     align-content: center;
     background: gray;
-    border: 5px solid white;
+    border: 5px solid darkgray;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
     text-align: center;
-
+    width: 30%;
 }
 
-fieldset{
+form h1, form p{
     color: white;
     font-family: "Arial Black";
-    border: none;
-
 }
 
-textarea {
-    width: 100%;
+form fieldset{
+    border: none;
+    color: white;
+    font-family: "Arial Black";
+}
+
+form input {
+    border: 2px solid darkgray;
+}
+
+form textarea {
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    font-size: 16px;
     height: 40%;
     padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
     resize: none;
+    width: 100%;
 }
 
-button{
+form button{
     background-color: #222;
     border: none;
     color: white;
+    display: inline-block;
     font-family: "Arial Black";
+    font-size: 16px;
+    margin: 4px 2px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
 }
 
 /*Footer */
-.footer{
+footer{
     background: #333;
     border-top: 2px solid black;
     color: white;
