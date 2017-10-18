@@ -232,16 +232,6 @@ a{
     color: white;
 }
 
-<<<<<<< HEAD
-/*Images*/
-div img{
-=======
-/*Images */
-.set div img{
->>>>>>> aefe761a2b8259cd39ff436b6dce26080c3f2891
-    margin: 0%;
-}
-
 .set img.left{
     float: left;
     margin-left: 1%;
