@@ -9,7 +9,7 @@ Header {
 }
 
 /*Navigation bar */
-ul{
+nav ul{
     background-color: #222;
     border-bottom: 2px solid black;
     list-style-type: none;
@@ -18,11 +18,11 @@ ul{
     padding: 0;
 }
 
-li {
+nav ul li {
     float: left;
 }
 
-li a {
+nav ul li a {
     color: white;
     display: inline-block;
     font-family: "Arial Black";
@@ -31,11 +31,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover, .dropdown-content a:hover, button:hover{
+nav ul li a:hover, .dropdown:hover, .dropdown-content a:hover, button:hover{
     background-color: red;
 }
 
-li.dropdown {
+nav ul li.dropdown {
     display: inline-block;
 }
 
