@@ -166,7 +166,7 @@ html, body{
     font-size: 40px;
     color: #ffa500;
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .tactics {
@@ -202,16 +202,31 @@ html, body{
 .ul {
     height: auto;
     color: #FFFFFF;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.ul li {
+    font-family: "Arial";
+    text-align: center;
+    list-style-position: inside;
 }
 
 .text {
     font-family: "Arial";
     color:white;
-    
+    margin-left: 1%;
+    text-align: center;
 }
 
-.ul li {
-    font-family: "Arial";
+.textm {
+    margin-bottom: 0;
+}
+
+div img {
+    margin-left: 1%;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /*URL links */
