@@ -222,10 +222,7 @@ hr {
     margin-top: 0;
 }
 
-div img {
-    margin-left: 1%;
-    margin-bottom: 15px;
-}
+
 
 /*URL links */
 a{
@@ -233,8 +230,11 @@ a{
 }
 
 /*Images */
-div img{
-    margin: 0%;
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .set img.left{
@@ -244,7 +244,8 @@ div img{
     size: auto;
     border: none;
 }
-.set img.center {
+.set img.center{
+    display: none;
     margin-left: 4%;
     margin-right: 4%;
     max-width: 30%;
