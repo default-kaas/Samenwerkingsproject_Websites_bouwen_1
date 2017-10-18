@@ -29,7 +29,7 @@ nav ul li a {
     font-family: "Arial Black";
     padding: 14px 16px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 nav ul li a:hover, .dropdown:hover, .dropdown-content a:hover, button:hover{
@@ -99,7 +99,7 @@ form h1, form p{
 }
 
 form fieldset{
-    algin-content: center;
+    align-content: center;
     border: none;
     color: white;
     font-family: "Arial Black";
