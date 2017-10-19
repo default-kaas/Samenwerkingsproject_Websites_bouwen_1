@@ -238,7 +238,7 @@ img.center{
     margin-bottom: 20px;
 }
 
-#
+
 
 .set img.left{
     float: left;
@@ -248,7 +248,7 @@ img.center{
     border: none;
 }
 .set img.center{
-    display: none;
+    display: initial;
     margin-left: 4%;
     margin-right: 4%;
     max-width: 30%;
