@@ -238,35 +238,47 @@ img.center{
     margin-bottom: 20px;
 }
 
-#
-
-.set img.left{
+.imageSet img.left{
+    border: none;
     float: left;
     margin-left: 1%;
+    max-height: 30%;
     max-width: 30%;
+    order: 1;
     size: auto;
-    border: none;
 }
-.set img.center{
-    display: none;
+.imageSet img.center{
+    border: none;
+    display: initial;
     margin-left: 4%;
     margin-right: 4%;
+    max-height: 30%;
     max-width: 30%;
+    order: 2;
     size: auto;
-    border: none;
+
 }
-.set img.right{
+.imageSet img.right{
+    border: none;
     float: right;
     margin-right: 1%;
     max-width: 30%;
+    order: 3;
     size: auto;
-    border: none;
-
 }
-
-.set{
+/* imageSet */
+.imageSet{
     display: block;
-    height: 40%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    padding-bottom: 5%;
+}
+
+
+.imageSet .imageDescription{
+    max-width: 30%;
+}
+
+.imageSet div.imageDescription{
+    display: initial;
 }
