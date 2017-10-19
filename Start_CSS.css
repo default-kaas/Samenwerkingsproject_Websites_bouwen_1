@@ -238,47 +238,35 @@ img.center{
     margin-bottom: 20px;
 }
 
-.imageSet img.left{
-    border: none;
+#
+
+.set img.left{
     float: left;
     margin-left: 1%;
-    max-height: 30%;
     max-width: 30%;
-    order: 1;
     size: auto;
-}
-.imageSet img.center{
     border: none;
-    display: initial;
+}
+.set img.center{
+    display: none;
     margin-left: 4%;
     margin-right: 4%;
-    max-height: 30%;
     max-width: 30%;
-    order: 2;
     size: auto;
-
-}
-.imageSet img.right{
     border: none;
+}
+.set img.right{
     float: right;
     margin-right: 1%;
     max-width: 30%;
-    order: 3;
     size: auto;
+    border: none;
+
 }
-/* imageSet */
-.imageSet{
+
+.set{
     display: block;
+    height: 40%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    padding-bottom: 5%;
-}
-
-
-.imageSet .imageDescription{
-    max-width: 30%;
-}
-
-.imageSet div.imageDescription{
-    display: initial;
 }
