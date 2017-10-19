@@ -270,3 +270,17 @@ img.center{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
+
+/*MENU*/
+
+.menu {
+    margin-left: 1%;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.menu h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
