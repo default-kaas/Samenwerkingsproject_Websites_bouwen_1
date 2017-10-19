@@ -10,6 +10,8 @@ Header {
 }
 
 /*Navigation bar */
+
+
 nav ul{
     background-color: #222;
     border-bottom: 2px solid black;
@@ -29,7 +31,8 @@ nav ul li a {
     font-family: "Arial Black";
     padding: 14px 16px;
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
+    list-style-type: none;
 }
 
 nav ul li a:hover, .dropdown:hover, .dropdown-content a:hover, button:hover{
@@ -238,8 +241,6 @@ img.center{
     margin-bottom: 20px;
 }
 
-
-
 .set img.left{
     float: left;
     margin-left: 1%;
@@ -269,4 +270,5 @@ img.center{
     height: 40%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    padding-bottom: 0.5%;
 }
