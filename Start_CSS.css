@@ -238,11 +238,8 @@ img.center{
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-=======
-#
 
->>>>>>> parent of a620188... Improvement Now trying to add descriptions
+
 .set img.left{
     float: left;
     margin-left: 1%;
@@ -251,11 +248,7 @@ img.center{
     border: none;
 }
 .set img.center{
-<<<<<<< HEAD
     display: initial;
-=======
-    display: none;
->>>>>>> parent of a620188... Improvement Now trying to add descriptions
     margin-left: 4%;
     margin-right: 4%;
     max-width: 30%;
