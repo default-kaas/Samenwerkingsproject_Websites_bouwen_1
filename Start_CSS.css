@@ -192,10 +192,13 @@ form button{
 
 .contentFlexBoxVertical2 p{
     opacity: 0;
+    display: none;
 }
 
 .contentFlexBoxVertical2:hover p{
     opacity: 1;
+    display: block;
+    margin: 0px;
 }
 
 footer{
@@ -311,42 +314,25 @@ img.s{
     max-width: 35%;
 }
 
-.contentFlexBoxVertical2 img.f{
+.contentFlexBoxVertical2 img{
     width: 100%;
     size: auto;
     border: none;
 }
 
-.set img.left{
-    float: left;
-    margin-left: 1%;
-    max-width: 30%;
-    size: auto;
-    border: none;
-}
-.set img.center{
-    display: initial;
-    margin-left: 4%;
-    margin-right: 4%;
-    max-width: 30%;
-    size: auto;
-    border: none;
-}
-.set img.right{
-    float: right;
-    margin-right: 1%;
-    max-width: 30%;
-    size: auto;
-    border: none;
-
+.contentFlexBoxVertical2 img.l:active{
+    transform: scale(2,2);
+    transform-origin:0% 50%;
 }
 
-.set{
-    display: block;
-    height: 40%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    padding-bottom: 0.5%;
+.contentFlexBoxVertical2 img.c:active{
+    transform: scale(2,2);
+    transform-origin:50% 50%;
+}
+
+.contentFlexBoxVertical2 img.r:active{
+    transform: scale(2,2);
+    transform-origin:100% 50%;
 }
 
 #homePagePic{
