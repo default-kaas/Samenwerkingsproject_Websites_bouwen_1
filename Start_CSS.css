@@ -161,6 +161,43 @@ form button{
 }
 
 /*Footer */
+.content{
+    flex: 1 0 auto;
+}
+
+.contentFlexBoxHorizontal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3%;
+}
+
+.contentFlexBoxVertical{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+/*    flex-wrap: wrap; */
+
+}
+
+.contentFlexBoxVertical2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /*    flex-wrap: wrap; */
+}
+
+.contentFlexBoxVertical2 p{
+    opacity: 0;
+}
+
+.contentFlexBoxVertical2:hover p{
+    opacity: 1;
+}
+
 footer{
     background: #333;
     border-top: 2px solid black;
@@ -175,15 +212,6 @@ footer{
 /* Footer: Would like to have a better solution */
 html, body{
     height: 100%;
-}
-
-.content{
-     flex: 1 0 auto;
- }
-
-.contentFlexBox{
-    display: flex;
-    flex: 1 0 auto;
 }
 
 footer{
@@ -281,6 +309,12 @@ img.s{
 
 .rightS img.s{
     max-width: 35%;
+}
+
+.contentFlexBoxVertical2 img.f{
+    width: 100%;
+    size: auto;
+    border: none;
 }
 
 .set img.left{
