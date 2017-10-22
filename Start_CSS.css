@@ -83,6 +83,30 @@ body {
     flex-direction: column;
 }
 
+h1, h2, p{
+    text-align: center;
+    color: white;
+    font-family: "Arial Black";
+}
+
+h2{
+    margin: 0px;
+}
+
+.leftS{
+    aling: left;
+    max-width: 50%;
+}
+
+.rightS{
+    aling: right;
+    max-width: 50%;
+}
+
+.maxWidthP{
+    max-width: 60%;
+    margin: auto;
+}
 /* Form*/
 form{
     align-content: center;
@@ -154,6 +178,11 @@ html, body{
 }
 
 .content{
+     flex: 1 0 auto;
+ }
+
+.contentFlexBox{
+    display: flex;
     flex: 1 0 auto;
 }
 
@@ -243,6 +272,17 @@ img.center{
     margin-bottom: 20px;
 }
 
+img.s{
+    display: block;
+    margin: 0px auto;
+    max-width: 30%;
+    margin-bottom: 3%;
+}
+
+.rightS img.s{
+    max-width: 35%;
+}
+
 .set img.left{
     float: left;
     margin-left: 1%;
@@ -275,6 +315,9 @@ img.center{
     padding-bottom: 0.5%;
 }
 
+#homePagePic{
+    width: 350px;
+}
 /*MENU*/
 
 .menu {
