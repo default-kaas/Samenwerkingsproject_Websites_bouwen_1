@@ -10,8 +10,6 @@ Header {
 }
 
 /*Navigation bar */
-
-
 nav ul{
     background-color: #222;
     border-bottom: 2px solid black;
@@ -164,8 +162,13 @@ footer{
 }
 
 /*Text content*/
+@media  screen  and  (max-width: 481px){
+    .awc{
+        color: green;
+    }
+}
+
 .awc {
-    color : white;
     font-family: "Arial Black";
     padding-left: 1%;
     text-align: center;
@@ -236,8 +239,7 @@ a{
 
 img.center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
     margin-bottom: 20px;
 }
 
