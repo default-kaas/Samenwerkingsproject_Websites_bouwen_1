@@ -176,7 +176,6 @@ form button{
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-/*    flex-wrap: wrap; */
 
 }
 
@@ -187,16 +186,14 @@ form button{
     max-width: 30%;
     margin-left: 2%;
     margin-right: 2%;
-    /*    flex-wrap: wrap; */
+
 }
 
 .contentFlexBoxVertical2 p{
-    opacity: 0;
     display: none;
 }
 
 .contentFlexBoxVertical2:hover p{
-    opacity: 1;
     display: block;
     margin: 0px;
 }
@@ -213,14 +210,15 @@ footer{
 }
 
 /* Footer: Would like to have a better solution */
+
 html, body{
     height: 100%;
 }
-
+/* can be removed
 footer{
     flex-shrink: 0;
 }
-
+*/
 /*Text content*/
 @media  screen  and  (max-width: 481px){
     .awc{
