@@ -214,11 +214,12 @@ footer{
 html, body{
     height: 100%;
 }
-/* can be removed
+/* Can be removed
 footer{
     flex-shrink: 0;
 }
 */
+
 /*Text content*/
 @media  screen  and  (max-width: 481px){
     .awc{
@@ -226,6 +227,7 @@ footer{
     }
 }
 
+/*First page */
 .awc {
     font-family: "Arial Black";
     padding-left: 1%;
@@ -262,6 +264,7 @@ footer{
     margin-bottom: 50px;
 }
 
+/*Why is this in our code ???*/
 .ul {
     height: auto;
     color: #FFFFFF;
@@ -285,8 +288,6 @@ footer{
 hr {
     margin-top: 0;
 }
-
-
 
 /*URL links */
 a{
@@ -336,7 +337,7 @@ img.s{
 #homePagePic{
     width: 350px;
 }
-/*MENU*/
+/*Menu*/
 
 .menu {
     margin-left: 1%;
