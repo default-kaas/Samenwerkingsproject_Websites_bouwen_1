@@ -42,7 +42,7 @@ nav ul li a {
     margin-right: 10px;
 }
 
-nav ul li a:hover, .dropdown:hover, .dropdown-content a:hover, button:hover{
+nav ul li a:hover, .dropdown:hover, .dropdown-content a:hover{
     background-color: white;
 }
 
@@ -58,7 +58,6 @@ nav ul .dropdown{
     border-top: none;
     display: none;
     position: absolute;
-    text-align: left;
     z-index: 1;
     text-align: center;
 }
@@ -84,8 +83,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-
-    /* Idk: Would like to have a better solution */
     display: flex;
     flex-direction: column;
 }
@@ -101,8 +98,6 @@ footer{
     text-align: center;
     width: 100%;
 }
-
-/* Footer: Would like to have a better solution */
 html, body{
     height: 100%;
 }
