@@ -1,6 +1,6 @@
 /*Header*/
 header {
-    background-color: #333;
+    background-color: #222;
     text-align:center;
 
 }
@@ -411,9 +411,9 @@ img.s{
 
     /*Mobile menu */
     .menu-icon{
+        margin-left: 10px;
         display: block;
     }
-
     nav ul{
         display:none;
         postion: absolute;
@@ -424,11 +424,16 @@ img.s{
     nav:hover ul{
         display: inline-block;
     }
-
     nav:hover ul{
         display: inline-table;
     }
     nav li{
         display: inline-block;
+    }
+    nav{
+        z-index: 1;
+        display: inline-grid;
+        max-height: 40px;
+        background: #222;
     }
 }
