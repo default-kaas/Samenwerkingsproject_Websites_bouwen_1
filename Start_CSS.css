@@ -62,17 +62,13 @@ nav ul .dropdown{
 }
 
 .dropdown-content a {
-    color:white;
     display: block;
-    font-family: "Arial Black";
-    padding: 12px 8px;
+    padding: 14px 16px;
     text-align: center;
     text-decoration: none;
 }
 
-a .current{
-    color:orange;
-}
+
 
 .dropdown:hover .dropdown-content {
     display: block;
