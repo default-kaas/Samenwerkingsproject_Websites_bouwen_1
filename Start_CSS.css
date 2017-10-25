@@ -354,7 +354,32 @@ img.s{
 /*-------------------Media queries 1024px--------------------*/
 
 @media screen and (max-width: 1024px){
+    .menu-icon{
+        margin-left: 10px;
+        display: block;
+    }
+    nav ul{
+        display:none;
+        postion: absolute;
+        background: #222;
+        border: 2px solid black;
+        width: 15%;
+    }
 
+    nav:hover ul{
+        display: inline-table;
+    }
+
+    nav{
+        z-index: 1;
+        display: inline-grid;
+        max-height: 40px;
+        background: #222;
+    }
+
+    .contentFlexBoxVertical2 img.l:active, .contentFlexBoxVertical2 img.c:active, .contentFlexBoxVertical2 img.r:active{
+        transform: scale(2.2,2.2);
+    }
 }
 
 /*-------------------Media queries 480px--------------------*/
@@ -410,30 +435,7 @@ img.s{
     }
 
     /*Mobile menu */
-    .menu-icon{
-        margin-left: 10px;
-        display: block;
-    }
     nav ul{
-        display:none;
-        postion: absolute;
-        background: #222;
-        border: 2px solid black;
         width: 30%;
-    }
-    nav:hover ul{
-        display: inline-block;
-    }
-    nav:hover ul{
-        display: inline-table;
-    }
-    nav li{
-        display: inline-block;
-    }
-    nav{
-        z-index: 1;
-        display: inline-grid;
-        max-height: 40px;
-        background: #222;
     }
 }
