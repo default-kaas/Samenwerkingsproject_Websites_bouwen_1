@@ -105,12 +105,10 @@ h2{
 }
 
 .leftS{
-    aling: left;
     max-width: 50%;
 }
 
 .rightS{
-    aling: right;
     max-width: 50%;
 }
 
@@ -223,22 +221,8 @@ footer{
     width: 100%;
 }
 
-/* Footer: Would like to have a better solution */
-
 html, body{
     height: 100%;
-}
-/* Can be removed
-footer{
-    flex-shrink: 0;
-}
-*/
-
-/*Text content*/
-@media  screen  and  (max-width: 481px){
-    .awc{
-        color: green;
-    }
 }
 
 /*First page */
@@ -278,7 +262,7 @@ footer{
     margin-bottom: 50px;
 }
 
-/*Why is this in our code ???*/
+/*For ul in page two*/
 .ul {
     height: auto;
     color: #FFFFFF;
@@ -303,7 +287,7 @@ hr {
     margin-top: 0;
 }
 
-/*URL links */
+/*URL links*/
 a{
     color: white;
 }
@@ -329,7 +313,6 @@ img.s{
 
 .contentFlexBoxVertical2 img{
     width: 100%;
-    size: auto;
     border: none;
 }
 
@@ -354,13 +337,13 @@ img.s{
 /*-------------------Media queries 1024px--------------------*/
 
 @media screen and (max-width: 1024px){
+    /*Menu tablet */
     .menu-icon{
         margin-left: 10px;
         display: block;
     }
     nav ul{
         display:none;
-        postion: absolute;
         background: #222;
         border: 2px solid black;
         width: 15%;
@@ -386,8 +369,6 @@ img.s{
 
 @media screen and (max-width: 480px){
     /*General */
-
-
     .header{
         height: 170px;
     }
