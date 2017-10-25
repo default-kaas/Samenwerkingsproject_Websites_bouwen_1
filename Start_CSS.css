@@ -107,6 +107,39 @@ h2{
     max-width: 60%;
     margin: auto;
 }
+
+.contentFlexBoxHorizontal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3%;
+}
+
+.contentFlexBoxVertical{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+
+}
+
+.contentFlexBoxVertical2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.contentFlexBoxVertical2 p{
+    display: none;
+}
+
+.contentFlexBoxVertical2:hover p{
+    display: block;
+    margin: 0px;
+}
 /* Form*/
 form{
     align-content: center;
@@ -163,39 +196,6 @@ form button{
 /*Footer */
 .content{
     flex: 1 0 auto;
-}
-
-.contentFlexBoxHorizontal{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 3%;
-}
-
-.contentFlexBoxVertical{
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-
-}
-
-.contentFlexBoxVertical2{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    max-width: 30%;
-    margin-left: 2%;
-    margin-right: 2%;
-
-}
-
-.contentFlexBoxVertical2 p{
-    display: none;
-}
-
-.contentFlexBoxVertical2:hover p{
-    display: block;
-    margin: 0px;
 }
 
 footer{
