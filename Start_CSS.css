@@ -10,6 +10,13 @@ header {
 }
 
 /*Navigation bar */
+.menu-icon{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url(Image/nav.png) center;
+}
+
 nav ul{
     background-color: #222;
     border-bottom: 2px solid black;
@@ -54,7 +61,6 @@ nav ul .dropdown{
     background-color: #222;
     border: 2px solid black;
     border-top: none;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: none;
     position: absolute;
     text-align: center;
@@ -344,20 +350,6 @@ img.s{
 #homePagePic{
     width: 350px;
 }
-/*Menu*/
-
-.menu {
-    margin-left: 1%;
-    color: white;
-    font-family: "Arial";
-    text-align: center;
-}
-
-.menu h2 {
-    margin: 0;
-    margin-bottom: 5px;
-}
-
 /*-------------------Media queries 1024px--------------------*/
 
 @media screen and (max-width: 1024px){
@@ -416,5 +408,26 @@ img.s{
         margin-bottom: 20px;
     }
 
+    /*Mobile menu */
+    .menu-icon{
+        display: block;
+    }
 
+    nav ul{
+        display:none;
+        postion: absolute;
+        background: #222;
+        border: 2px solid black;
+        width: 30%;
+    }
+    nav:hover ul{
+        display: inline-block;
+    }
+
+    nav:hover ul{
+        display: inline-table;
+    }
+    nav li{
+        display: inline-block;
+    }
 }
