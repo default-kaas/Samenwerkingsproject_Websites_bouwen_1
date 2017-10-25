@@ -160,6 +160,15 @@ img.center {
     margin-top: 10px;
 }
 
+/*Mozilla Firefox*/
+@-moz-document url-prefix() { 
+    nav ul li a{
+        font-family: "Arial";
+        color: black;
+        font-weight: bold;
+    }
+}
+
 
 /*-------------------Media queries 1024px--------------------*/
 

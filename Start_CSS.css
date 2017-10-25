@@ -100,6 +100,10 @@ body {
     flex-direction: column;
 }
 
+.warning {
+    display: none;
+}
+
 h1, h2, p{
     text-align: center;
     color: white;
@@ -340,6 +344,47 @@ img.s{
 #homePagePic{
     width: 350px;
 }
+
+/*Mozilla Firefox*/
+@-moz-document url-prefix() { 
+    nav ul li a{
+        font-family: "Arial";
+        color: white;
+        font-weight: bold;
+    }
+    .awc {
+        font-family: "Arial";
+        color: #ffa500;
+        font-weight: bold;
+    }
+    .bold {
+        font-family: "Arial";
+        color: white;
+        font-weight: bold;
+    }
+    .tactics {
+        font-family: "Arial";
+        color: white;
+        font-weight: bold;
+    }
+
+    .maxWidthP {
+        font-family: "Arial";
+        color: white;
+        font-weight: bold;
+    }
+
+}
+
+/*Internet Explorer*/
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .warning { 
+    display: flex; 
+    color:red;
+    text-align: center;
+    } 
+}
+
 /*-------------------Media queries 1024px--------------------*/
 
 @media screen and (max-width: 1024px){
