@@ -2,6 +2,7 @@
 header {
     background-color: #222;
     text-align:center;
+    height: 350px;
 }
 .header{
     height: 350px;
@@ -9,6 +10,18 @@ header {
 }
 
 /*Navigation bar */
+
+.current{
+    color: orange;
+}
+
+.menu-icon{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url(Image/nav.png) center;
+}
+
 .menu-icon{
     display: none;
     width: 40px;
@@ -51,10 +64,6 @@ nav ul .dropdown{
     border: none;
 }
 
-.current{
-    color: orange;
-}
-
 /*Dropdown navigation bar */
 .dropdown-content {
     background-color: #222;
@@ -72,8 +81,6 @@ nav ul .dropdown{
     text-align: center;
     text-decoration: none;
 }
-
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -162,9 +169,16 @@ form{
     margin-bottom: 50px;
 }
 
-form h1, form p{
+form button{
+    background-color: #222;
+    border: 2px solid #555;
     color: white;
+    display: inline-block;
     font-family: "Arial Black";
+    margin: 4px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
 }
 
 form fieldset{
@@ -173,6 +187,11 @@ form fieldset{
     color: white;
     font-family: "Arial Black";
     height: auto;
+}
+
+form h1, form p{
+    color: white;
+    font-family: "Arial Black";
 }
 
 form input{
@@ -192,21 +211,13 @@ form textarea{
     width: 100%;
 }
 
-form button{
-    background-color: #222;
-    border: 2px solid #555;
-    color: white;
-    display: inline-block;
-    font-family: "Arial Black";
-    margin: 4px 2px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-}
-
 /*Footer */
 .content{
     flex: 1 0 auto;
+}
+
+html, body{
+    height: 100%;
 }
 
 footer{
@@ -220,11 +231,7 @@ footer{
     width: 100%;
 }
 
-html, body{
-    height: 100%;
-}
-
-/*First page */
+/*First page title*/
 .awc {
     font-family: "Arial Black";
     padding-left: 1%;
@@ -235,6 +242,7 @@ html, body{
     margin-bottom: -5px;
 }
 
+/*Other page titles + <p> styles*/
 .tactics {
     color : white;
     font-family: "Arial Black";
@@ -262,6 +270,17 @@ html, body{
 }
 
 /*For ul in page two*/
+hr {
+    margin-top: 0;
+} 
+
+.text {
+    font-family: "Arial";
+    color:white;
+    margin-left: 1%;
+    text-align: center;
+}
+
 .ul {
     height: auto;
     color: #FFFFFF;
@@ -275,24 +294,12 @@ html, body{
     list-style-position: inside;
 }
 
-.text {
-    font-family: "Arial";
-    color:white;
-    margin-left: 1%;
-    text-align: center;
-}
-
-hr {
-    margin-top: 0;
-}
-
 /*URL links*/
 a{
     color: white;
 }
 
 /*Images */
-
 img.center{
     display: block;
     margin: 0px auto;
@@ -368,6 +375,11 @@ img.s{
 
 @media screen and (max-width: 480px){
     /*General */
+    header {
+        background-color: #222;
+        text-align:center;
+        height: 170px;
+    }
     .header{
         height: 170px;
     }

@@ -2,6 +2,7 @@
 Header {
     background-color: #222;
     text-align:center;
+    height: 300px;
 }
 .header{
     height: 300px;
@@ -9,6 +10,17 @@ Header {
 }
 
 /*Navigation bar */
+.current{
+    color: white;
+}
+
+.menu-icon{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url(Image/nav.png) center;
+}
+
 nav ul{
     background-attachment: fixed;
     background-image: url("Image/rb.jpg");
@@ -21,10 +33,6 @@ nav ul{
 
 nav ul li {
     float: left;
-}
-
-.current{
-    color: white;
 }
 
 nav ul li a {
@@ -151,3 +159,63 @@ img.center {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+
+/*-------------------Media queries 1024px--------------------*/
+
+    @media screen and (max-width: 1024px){
+        /*Menu tablet */
+        .menu-icon{
+            margin-left: 10px;
+            display: block;
+        }
+        nav ul{
+            display:none;
+            background: #222;
+            border: 2px solid black;
+            width: 15%;
+        }
+
+        nav:hover ul{
+            display: inline-table;
+        }
+
+        nav{
+            z-index: 1;
+            display: inline-grid;
+            max-height: 40px;
+            background: #222;
+        }
+
+        nav li {
+            width: 120%;
+        }
+
+        .contentFlexBoxVertical2 img.l:active, .contentFlexBoxVertical2 img.c:active, .contentFlexBoxVertical2 img.r:active{
+            transform: scale(2.2,2.2);
+        }
+    }
+/*-------------------Media queries 480px--------------------*/
+
+    @media screen and (max-width: 480px){
+       /*General */
+        .header{
+            height: 170px;
+        }
+        img.center{
+            max-width: 100%;
+        }
+        .bold{
+            font-size: 20px;
+        }
+        .thin{
+            font-size: 13px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        /*Mobile menu */
+        nav ul{
+            width: 72%;
+        }
+    }
