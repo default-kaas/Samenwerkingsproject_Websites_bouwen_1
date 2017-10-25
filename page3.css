@@ -67,7 +67,7 @@ nav ul .dropdown{
     color:black;
     display: block;
     font-family: "Arial Black";
-    padding: 12px 16px;
+    padding: 12px 47px;
     text-align: center;
     text-decoration: none;
 }
@@ -126,8 +126,7 @@ img.center {
 .inf {
     color : white;
     font-family: sans-serif;
-    padding-left: 1%;
-    text-align: center;
+    margin-left: 1%;
     font-size: 30px;
     color: #FFFFFF;
     margin-top: 10px;

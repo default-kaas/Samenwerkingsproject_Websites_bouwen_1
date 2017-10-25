@@ -111,6 +111,7 @@ h2{
 .maxWidthP{
     max-width: 60%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .contentFlexBoxHorizontal{
