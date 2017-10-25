@@ -24,6 +24,10 @@ nav ul li {
     float: left;
 }
 
+.current{
+    color: white;
+}
+
 nav ul li a {
     color: black;
     display: inline-block;
