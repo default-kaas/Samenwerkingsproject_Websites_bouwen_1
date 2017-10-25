@@ -154,6 +154,8 @@ form{
     margin-right: auto;
     text-align: center;
     width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 form h1, form p{
