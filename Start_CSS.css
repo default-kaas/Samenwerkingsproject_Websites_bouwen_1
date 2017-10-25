@@ -355,3 +355,9 @@ img.s{
     margin: 0;
     margin-bottom: 5px;
 }
+
+/*-------------------Media queries--------------------*/
+
+@media screen and (max-width: 1024px){
+
+}
