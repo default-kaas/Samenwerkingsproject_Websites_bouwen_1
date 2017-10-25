@@ -203,6 +203,9 @@ img.center {
         .contentFlexBoxVertical2 img.l:active, .contentFlexBoxVertical2 img.c:active, .contentFlexBoxVertical2 img.r:active{
             transform: scale(2.2,2.2);
         }
+        nav ul {
+            width: 60%;
+        }
     }
 /*-------------------Media queries 480px--------------------*/
 
