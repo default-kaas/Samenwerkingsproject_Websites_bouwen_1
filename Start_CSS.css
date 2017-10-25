@@ -44,6 +44,11 @@ nav ul li.dropdown {
 nav ul .dropdown{
     border: none;
 }
+
+.current{
+    color: orange;
+}
+
 /*Dropdown navigation bar */
 .dropdown-content {
     background-color: #222;
@@ -63,6 +68,10 @@ nav ul .dropdown{
     padding: 12px 8px;
     text-align: center;
     text-decoration: none;
+}
+
+a .current{
+    color:orange;
 }
 
 .dropdown:hover .dropdown-content {
