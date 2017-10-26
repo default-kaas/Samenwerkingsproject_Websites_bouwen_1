@@ -414,6 +414,21 @@ img.s{
     .contentFlexBoxVertical2 img.l:active, .contentFlexBoxVertical2 img.c:active, .contentFlexBoxVertical2 img.r:active{
         transform: scale(2.2,2.2);
     }
+
+    /* Was better geweest........ en door een sync fout er uit gehaald......
+
+     nav ul{
+        border-left: none;
+        border-top: none;
+    }
+    .dropdown-content {
+        border-left: none;
+    }
+
+    .dropdown-content a {
+        text-align: left;
+    }
+    */
 }
 
 /*-------------------Media queries 480px--------------------*/
