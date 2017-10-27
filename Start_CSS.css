@@ -428,7 +428,31 @@ img.s{
     .dropdown-content a {
         text-align: left;
     }
+*/
+    /*Add after 25-10-2017 image gallery tablet
+    .contentFlexBoxHorizontal{
+        justify-content: flex-start;
+        max-width: 50%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .contentFlexBoxVertical{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contentFlexBoxVertical2{
+        max-width: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contentFlexBoxVertical2 img{
+        height: 200px;
+    }
     */
+
 }
 
 /*-------------------Media queries 480px--------------------*/
@@ -457,11 +481,21 @@ img.s{
 
     /*Image gallery */
     .contentFlexBoxVertical2{
+        /*If tablet  attributes are on.
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        --------------------*/
         margin-bottom: 20px;
         margin-top: 20px;
         max-width: 80%;
     }
     .contentFlexBoxHorizontal{
+        /*If tablet  attributes are on.
+        justify-content: center;
+        margin-bottom: 3%;
+        --------------------*/
         align-items: center;
         flex-direction: column;
     }
