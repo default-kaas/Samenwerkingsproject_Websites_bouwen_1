@@ -22,13 +22,6 @@ header {
     background: url(Image/nav.png) center;
 }
 
-.menu-icon{
-    display: none;
-    width: 40px;
-    height: 40px;
-    background: url(Image/nav.png) center;
-}
-
 nav ul{
     background-color: #222;
     border-bottom: 2px solid black;
@@ -75,7 +68,7 @@ nav ul .dropdown{
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a{
     display: block;
     padding: 14px 16px;
     text-align: center;
@@ -93,11 +86,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
-
-    /* Idk: Would like to have a better solution */
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .warning {
@@ -129,9 +120,9 @@ h2{
 }
 
 .contentFlexBoxHorizontal{
+    align-items: flex-start;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     margin-bottom: 3%;
 }
 
@@ -146,10 +137,9 @@ h2{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    max-width: 30%;
     margin-left: 2%;
     margin-right: 2%;
-
+    max-width: 30%;
 }
 
 .contentFlexBoxVertical2 p{
@@ -415,11 +405,28 @@ img.s{
         transform: scale(2.2,2.2);
     }
 
-    /* Was better geweest........ en door een sync fout er uit gehaald......
+    /*Add after 25-10-2017 for nav
+    nav a:hover {
+        background-color: red;
+        width: 120px;
+        text-align: left;
+    }
+
+    nav ul, nav a{
+        width: 120px;
+        text-align: left;
+        border-left: none;
+        border-top: none;
+    }
+
+    ---------------------------------------------------------------------*/
+
+     /*Was better geweest........ en door een sync fout er uit gehaald......
      nav ul{
         border-left: none;
         border-top: none;
     }
+
     .dropdown-content {
         border-left: none;
     }
@@ -427,7 +434,8 @@ img.s{
     .dropdown-content a {
         text-align: left;
     }
-*/
+    ---------------------------------------------------------------------*/
+
     /*Add after 25-10-2017 image gallery tablet
     .contentFlexBoxHorizontal{
         justify-content: flex-start;
